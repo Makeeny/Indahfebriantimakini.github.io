@@ -1,0 +1,80 @@
+/* gambar.css */
+
+/* Reset default margin and padding */
+body, ul, li, a {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Set background color and font styles */
+  body {
+    background-color: #f8f8f8;
+    font-family: 'Helvetica', sans-serif;
+    color: #5586e8;
+  }
+  
+  /* Style the navigation */
+  ul {
+    list-style-type: none;
+    background-color:#5586e8;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  ul li a {
+    display: block;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  ul li a:hover {
+    background-color: #b5bdf4;
+  }
+  
+  ul li.active a {
+    background-color:#b5bdf4;
+  }
+  
+  /* Style the content */
+  h3 {
+    font-size: 24px;
+    margin: 20px 0;
+    color: #031228;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  
+  p {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #0c0e2ec6;
+    text-align: center;
+  }
+  
+  ol {
+    margin-left: 20px;
+  }
+  
+  ol li {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  ol li a {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  ol li a:hover {
+    color: rgba(12, 2, 19, 0.815);
+  }
+  
+  
